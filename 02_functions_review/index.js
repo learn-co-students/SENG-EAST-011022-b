@@ -49,7 +49,3 @@ let findNames = names.find((name) => name.length > 4)
 //   console.log(array)
 // })
 
-
-
-
-
