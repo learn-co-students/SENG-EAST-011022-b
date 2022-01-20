@@ -2,16 +2,18 @@ getAllRamen()
 
 const menu = document.querySelector("#ramen-menu")
 const ramenForm = document.querySelector("#new-ramen")
+const ratingBtn = document.querySelector("#rating-btn")
+
+
 
 ramenForm.addEventListener("submit", addFormDataToMenu)
+ratingBtn.addEventListener("click", increaseRating)
 
 function getAllRamen(){
   fetch("http://localhost:3000/ramens")
    .then(res => res.json())
    .then(ramenArray => {
-     ramenArray.forEach(ramenObj => {
-      createImageTags(ramenObj)
-    })
+     ramenArray.forEach(ramenObj => createImageTags(ramenObj))
   })
 }
 
@@ -54,7 +56,6 @@ function createImageTags(ramenObj){
 function addFormDataToMenu(e) {
   e.preventDefault()
 
-
   let newSushiObj = {
     name: e.target.name.value,
     restaurant: e.target.restaurant.value,
@@ -64,5 +65,16 @@ function addFormDataToMenu(e) {
   }
 
   createImageTags(newSushiObj)
+}
+
+
+function increaseRating(e){
+  // console.log(e);
+  let span = document.querySelector("#rating-display")
+
+  let number = parseInt(span.textContent)
+  let newNum = number + 1
+
+  span.textContent = newNum
 }
 
