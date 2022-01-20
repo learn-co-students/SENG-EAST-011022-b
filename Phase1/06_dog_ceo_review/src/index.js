@@ -58,7 +58,7 @@ function changeLiColor(e) {
   e.target.style.color = `rgb(${c1}, ${c2}, ${c3})`
   e.target.style.backgroundColor = `rgb(${c2}, ${c3}, ${c1})`
   
-  // // IF YOU WANT TO TOGGLE COLOR COMMENT OUT LINE 59 & 60 ABOVE AND COMMENT IN CODE BELOW
+  // // IF YOU WANT TO TOGGLE COLOR COMMENT OUT LINE 58 & 59 ABOVE AND COMMENT IN CODE BELOW
   // if (!!e.target.style.color){
     //   e.target.style.color = "black"
     //   e.target.style.backgroundColor = "white"
