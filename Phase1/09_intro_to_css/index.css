@@ -1,0 +1,71 @@
+
+/* * {
+  border: 1px solid grey
+} */
+
+.banner {
+  background-image: url('./assets/green-winter.jpeg');
+  height: 300px;
+  width: 85%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.banner-overlay {
+  background-color: rgba(255, 255, 255, 0.3 );
+}
+
+#header-text {
+  line-height: 300px;
+  font-size: 6vw;
+  color: white;
+  text-shadow: 2px 2px lightblue;
+}
+
+
+#nav {
+  background-color: lightblue;
+  width: 85%;
+  margin: 0px auto;
+}
+
+.nav-li {
+  display: inline-block;
+  margin: 0px 8px;
+  padding: 8px;
+}
+
+.nav-li:hover {
+  transition: 1s;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: green;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.card {
+  max-width: 30%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 5px 0px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+
+.card-img {
+  max-width: 80%;
+}
