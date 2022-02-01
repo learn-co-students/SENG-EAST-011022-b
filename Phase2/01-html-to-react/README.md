@@ -2,7 +2,16 @@
   - https://reactwithhooks.netlify.app/
 
 ### What is react? What do we know about react? 
-  -
+  - reusable UI
+  - Components
+  - Props
+  - State
+  - Destructuring
+  - Keys
+  - Modular
+  - Declaritive
+  - Library
+
 
 
 ### Our Goal Today - How to think about react components
@@ -13,9 +22,11 @@
 
 ### Break html into react components
   #### components:
-    - 
-    -
-    -
-    -
+    - Banner
+    - NavBar
+    - MainDisplay
+    - Form
+    - CardContainer
+    - Card
 
 
