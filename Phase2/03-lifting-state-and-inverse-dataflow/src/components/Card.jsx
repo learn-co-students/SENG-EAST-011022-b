@@ -15,9 +15,9 @@ function Card({name, price, img_url}) {
       <img className="card-img" src={img_url} alt="winter" />
       <button className="trash-btn">🗑</button>
       {buyStatus ? 
-        <button onClick={changeBuyStatus} className='buy-button'>BUY</button>
+        <button onClick={changeBuyStatus} className='buy-btn'>BUY</button>
       :
-        "SOLD"
+        <h3 className="bottom-card">SOLD</h3>
       }     
     </div>  
   );
