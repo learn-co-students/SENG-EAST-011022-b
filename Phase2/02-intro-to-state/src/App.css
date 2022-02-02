@@ -125,6 +125,7 @@ input {
 }
 
 .card {
+  position: relative;
   width: 23%;
   border: 3px solid #555e59;
   text-align: center;
@@ -144,8 +145,25 @@ h3 {
   font-size: 1.3vw;
 }
 
-
 .card-img {
   max-width: 30%;
+  margin-bottom: 20px;
 }
+
+.buy-button {
+  position: absolute;
+  bottom: 5px;
+  left: 25%;
+  
+  width: 50%;
+  background-color: #555e59;
+  color: #eaeaea; 
+  font-size: 1em;
+  border-radius: 15px;
+}
+
+.buy-button:hover {
+  box-shadow: 0.5px 0.5px 2px 0px #171c17;
+}
+
 
