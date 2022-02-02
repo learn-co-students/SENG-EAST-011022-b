@@ -14,3 +14,4 @@ const winterThings = [
 ]
 
 export default winterThings
+

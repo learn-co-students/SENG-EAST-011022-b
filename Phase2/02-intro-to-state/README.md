@@ -1,23 +1,35 @@
 # State Managment
-### Defining State(Wednesday) 
-### Lifting State & Inverse Dataflow(Thursday)
-### Controlled Inputs(Friday)
+### Wednesday: Defining State & Adding Events
+### Thursday: Lifting State & Inverse Dataflow
+### Friday: Controlled Inputs
 
+
+https://doesitmutate.xyz/
+
+[Our Wireframe & Component Hierarchy](https://miro.com/app/board/uXjVORfXYPE=/?invite_link_id=460000643272)
+
+- .map .filter
 
 ## Learning Goals
+##### Wednesday
 - Understand what state is
 - Be able to define state
 - Understand our to destructure an Array
-- Events in React vs Vanilla JS 
-- Make decisions about where state should live 
+- Events in React vs Vanilla JS
+##### Thursday 
+- Make decisions about where state should live (every day)
 - get comfortable moving (or "lifting") state 
 - Understand what we mean by "inverse data flow"
+##### Friday
 - Understand controlled inputs in forms
 
 ## Coding Objectives
+##### Wednesday
 - Add a Buy Button - when the button is clicked the tile should say 'SOLD'
+##### Thursday 
 - Be able to click on an item replace the main display with the clicked item
-- Forms and controlled inputs (Friday)
+##### Friday
+- Forms and controlled inputs
    - filling out the form should add an item to the list
 - Fetch and set state on page load using useEffect (Monday) 
 
