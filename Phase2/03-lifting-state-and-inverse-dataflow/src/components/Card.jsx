@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Card({name, price, img_url}) {
+function Card({id, name, price, img_url, deleteItem, selectItem}) {
   let [buyStatus, setBuyStatus] = useState(true)
 
   function changeBuyStatus() {
@@ -9,11 +9,11 @@ function Card({name, price, img_url}) {
   }
 
   return (
-    <div className='card'>
+    <div className='card' onClick={() => selectItem(id)}>
       <h3>{name}</h3>
       <h6>Price: ${price}</h6>
       <img className="card-img" src={img_url} alt="winter" />
-      <button className="trash-btn">🗑</button>
+      <button onClick={() => deleteItem(id)} className="trash-btn">🗑</button>
       {buyStatus ? 
         <button onClick={changeBuyStatus} className='buy-btn'>BUY</button>
       :
