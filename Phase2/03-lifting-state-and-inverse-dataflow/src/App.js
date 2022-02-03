@@ -12,7 +12,7 @@ import React from 'react';
 
 function App() {
   const [itemsArray, setItemsArray] = useState(winterThings)
-  const [itemId, setItemId] = useState(1)
+  const [itemId, setItemId] = useState()
 
   function selectItem(id){
     setItemId(id)
