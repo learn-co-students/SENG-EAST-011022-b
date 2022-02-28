@@ -1,11 +1,7 @@
 # Intro to Active Record
 
-- adding symbols in AR arguments (where, find_by)
-- ORM's
-- name spacing
-
 - taco
-- tacos -< taco_toppings >-toppings
+- users -< order >- tacos -< taco_toppings >-toppings
 
 ### Lecture Objectives
 
