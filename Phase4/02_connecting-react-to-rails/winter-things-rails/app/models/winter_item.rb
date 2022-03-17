@@ -1,0 +1,2 @@
+class WinterItem < ApplicationRecord
+end
